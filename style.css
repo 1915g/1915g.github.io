@@ -1725,6 +1725,8 @@ header {
 	.button{
 		left: 35.5%;
 		min-width: 32%;
+		position: relative;
+		top: 8px;
 	 
 }
 	.heading {
@@ -1963,6 +1965,8 @@ header {
 	.button{
 		left: 50.5%;
 		width: 50%;
+		position: relative;
+		top: 8px;
 	 
 }
 	.wrapper {
@@ -2167,6 +2171,20 @@ header {
 }
 
 @media (max-width: 479px) { 
+	
+		.email{
+	position: relative;
+	left: 50%;
+	max-width: 50%;
+
+}
+	.button{
+		left: 50.5%;
+		width: 50%;
+		position: relative;
+		top: 8px;
+	 
+}
 	.quote__text {
 		font-size: 16px;
 		line-height: 22px;
